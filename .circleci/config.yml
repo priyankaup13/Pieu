@@ -18,7 +18,7 @@ jobs:
 
     steps:
      -checkout
-     -run
+     -run:
        name: verify cookbook style
        command:
          echo 'test'
